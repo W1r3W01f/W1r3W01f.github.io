@@ -1,0 +1,38 @@
+/* Add to themes/butterfly/source/css/custom.css */
+
+.card-info {
+    background: #1d1b26;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  
+  .card-info-social {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    padding: 0.5rem 0;
+  }
+  
+  .card-info-social a {
+    color: #a9a9b3;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .card-info-social a:hover {
+    color: #fff;
+  }
+  
+  .card-info__description {
+    color: #a9a9b3;
+  }
+  
+  .author-info-articles {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+  }
+  
+  .author-info-articles > div {
+    color: #a9a9b3;
+  }
